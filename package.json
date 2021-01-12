@@ -1,5 +1,5 @@
 {
-  "name": "react-event-listeners",
+  "name": "react-events-listeners",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Spicy-Sparks/react-event-listeners.git"
+    "url": "git+https://github.com/Spicy-Sparks/react-events-listeners.git"
   },
   "author": "Spicy Sparks",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Spicy-Sparks/react-event-listeners/issues"
+    "url": "https://github.com/Spicy-Sparks/react-events-listeners/issues"
   },
-  "homepage": "https://github.com/Spicy-Sparks/react-event-listeners#readme"
+  "homepage": "https://github.com/Spicy-Sparks/react-events-listeners#readme"
 }
