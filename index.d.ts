@@ -1,4 +1,4 @@
-declare module 'react-native-event-listeners' {
+declare module 'react-events-listeners' {
   type Callback = (data: any) => void;
 
   class EventRegister {

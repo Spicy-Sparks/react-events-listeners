@@ -2,13 +2,13 @@
 
 (This package isn't only restricted to react-js projects. The source is written in plain js with no dependencies to react-js.)
 
-[![npm version](https://badge.fury.io/js/react-event-listeners.svg)](https://badge.fury.io/js/react-event-listeners)
-[![dependencie status](https://david-dm.org/tobiasMeinhardt/react-event-listeners.svg)](https://david-dm.org/tobiasMeinhardt/react-event-listeners)
-[![dev-dependency status](https://david-dm.org/tobiasMeinhardt/react-event-listeners/dev-status.svg)](https://david-dm.org/tobiasMeinhardt/react-event-listeners?type=dev)
-[![npm](https://img.shields.io/npm/dm/react-event-listeners.svg)](https://www.npmjs.com/package/react-event-listeners)
-[![npm](https://img.shields.io/npm/dt/react-event-listeners.svg)](https://www.npmjs.com/package/react-event-listeners)
-[![travis build](https://travis-ci.org/meinto/react-event-listeners.svg?branch=master)](https://travis-ci.org/meinto/react-event-listeners)
-[![Coverage Status](https://coveralls.io/repos/github/meinto/react-event-listeners/badge.svg?branch=master)](https://coveralls.io/github/meinto/react-event-listeners?branch=master)
+[![npm version](https://badge.fury.io/js/react-events-listeners.svg)](https://badge.fury.io/js/react-events-listeners)
+[![dependencie status](https://david-dm.org/tobiasMeinhardt/react-events-listeners.svg)](https://david-dm.org/tobiasMeinhardt/react-events-listeners)
+[![dev-dependency status](https://david-dm.org/tobiasMeinhardt/react-events-listeners/dev-status.svg)](https://david-dm.org/tobiasMeinhardt/react-events-listeners?type=dev)
+[![npm](https://img.shields.io/npm/dm/react-events-listeners.svg)](https://www.npmjs.com/package/react-events-listeners)
+[![npm](https://img.shields.io/npm/dt/react-events-listeners.svg)](https://www.npmjs.com/package/react-events-listeners)
+[![travis build](https://travis-ci.org/meinto/react-events-listeners.svg?branch=master)](https://travis-ci.org/meinto/react-events-listeners)
+[![Coverage Status](https://coveralls.io/repos/github/meinto/react-events-listeners/badge.svg?branch=master)](https://coveralls.io/github/meinto/react-events-listeners?branch=master)
 
 ## Why
 
@@ -17,13 +17,13 @@ In some very specific cases it can be charming to have a simple global event lis
 ## Installation
 
 ```
-npm install --save react-event-listeners
+npm install --save react-events-listeners
 ```
 
 or
 
 ```
-yarn add react-event-listeners
+yarn add react-events-listeners
 ```
 
 ## Usage Example
@@ -31,7 +31,7 @@ yarn add react-event-listeners
 *Hint: The event listeners also work across different files. You only have to import the ```EventRegister``` in every file you need to send or receive your events.*
 
 ```javascript
-import { EventRegister } from 'react-event-listeners'
+import { EventRegister } from 'react-events-listeners'
 
 /*
  * RECEIVER COMPONENT
@@ -78,7 +78,7 @@ const Sender = (props) => (
 
 ```javascript
 // import
-import { EventRegister } from 'react-event-listeners'
+import { EventRegister } from 'react-events-listeners'
 ```
 
 | static method       | return value      | description                                                    |
