@@ -31,7 +31,7 @@ yarn add react-native-event-listeners
 *Hint: The event listeners also work across different files. You only have to import the ```EventRegister``` in every file you need to send or receive your events.*
 
 ```javascript
-import { EventRegister } from 'react-native-event-listeners'
+import { EventRegister } from 'react-event-listeners'
 
 /*
  * RECEIVER COMPONENT
