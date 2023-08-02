@@ -1,6 +1,6 @@
 {
   "name": "react-events-listeners",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Spicy-Sparks/react-events-listeners/issues"
   },
-  "homepage": "https://github.com/Spicy-Sparks/react-events-listeners#readme"
+  "homepage": "https://github.com/Spicy-Sparks/react-events-listeners#readme",
+  "dependencies": {
+    "type-detect": "^4.0.8"
+  }
 }
