@@ -49,6 +49,14 @@ class EventRegister {
     })
   }
 
+  static hasListener(eventName) {
+    for (let event in EventRegister._Listeners.refs) {
+      if (event.name === eventName)
+        return true
+    }
+    return false
+  }
+
   /*
    * shortener
    */

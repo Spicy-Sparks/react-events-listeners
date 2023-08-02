@@ -10,6 +10,8 @@ declare module 'react-events-listeners' {
 
     public static emitEvent(eventName: string, data?: any): void
 
+    public static hasListener(eventName: string): boolean
+
     // shortener
     public static on(eventName: string, callback: Callback): string | boolean
 
